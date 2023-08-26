@@ -1,0 +1,41 @@
+SELECT coluna1, coluna2
+FROM tabela;
+
+--SELECIONA TODOS OS ELEMENTOS DA TABELA
+SELECT *
+FROM tabela;
+
+
+--FILTRA OS ELEMENTOS DUPLICADOS
+SELECT DISTINCT coluna1, coluna2
+FROM tabela;
+
+SELECT coluna1, coluna2
+FROM tabela
+WHERE condicao;
+/*
+operadpres lógicos
+=   IGUAL
+>   MAIOR QUE
+<   MENOR QUE
+>=  MAIOR IGUAL
+<=  MENOR IGUAL
+<>  DIFERENTE
+AND E
+OR  OU
+*/
+-- CONTA O NUMERO DE ELEMENTOS NA COLUNA 
+SELECT(COUNT(coluna1)
+
+-- LIMITADOR DO SELECT 
+SELECT TOP 10 *
+FROM tabela;
+
+--ORDENE OS RESULTADO EM CRESCENTE OU DECRECENTE
+SELECT coluna1, coluna2
+FROM tabela
+ORDER BY coluna1 asc/desc
+
+--USADO PARA ENCONTRAR UM VALOR ENTRE O VALOR MIN E UM MAX
+-- valor BETWEEN mínimo AND máximo;
+-- msm coisa de vaor >= min AND valor <= max;
